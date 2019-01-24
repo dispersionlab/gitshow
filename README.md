@@ -1,4 +1,4 @@
 # updates to this file to follow...
 
 
-See the wiki for the rules, structure of project, insights, past/present members.
+To get started, please [see the wiki](https://github.com/dispersionlab/welcome/wiki/how_to_participate!)
