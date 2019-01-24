@@ -7,5 +7,5 @@ Start with the [how to participate page](https://github.com/dispersionlab/welcom
 ## Joining
 If you're here for the first time and want to join, [create an issue in this repo](https://github.com/dispersionlab/welcome/issues), and introduce yourself! You'll need a free [github account](https://github.com/pricing) to do this.
 
-## Communications
+### Communications
 I (Michael) will keep in touch with each of using this GitHub team (via the discussion board and issues threads). 
