@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="3B61140B-6669-4D95-A331-6A0A56DEB439">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="129.371094,123.191406" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 1</String>
+            <ConnectedNoteIDs>4, 15</ConnectedNoteIDs>
+            <PointsToNoteIDs>15</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="29.253906,121.769531" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoA</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <PointsToNoteIDs>1</PointsToNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="205.871094,77.207031" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>Initial Cycle</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="219.023438,106.042969" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>makes new instrument, score, recording. </String>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="362.742188,110.71875" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>1, 35</ConnectedNoteIDs>
+            <PointsToNoteIDs>35</PointsToNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="133.773438,257.195312" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 2</String>
+            <ConnectedNoteIDs>29, 32</ConnectedNoteIDs>
+            <PointsToNoteIDs>32</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="33.773438,256.195312" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoB</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+            <PointsToNoteIDs>28</PointsToNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="210.0,211.25" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>Initial Cycle</String>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="223.621094,240.460938" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>makes new instrument, score, recording. </String>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="366.921875,244.867188" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>28, 50</ConnectedNoteIDs>
+            <PointsToNoteIDs>50</PointsToNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="594.0625,243.601562" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 2</String>
+            <ConnectedNoteIDs>35, 38</ConnectedNoteIDs>
+            <PointsToNoteIDs>38</PointsToNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="501.195312,118.027344" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoA</String>
+            <ConnectedNoteIDs>15, 34</ConnectedNoteIDs>
+            <PointsToNoteIDs>34</PointsToNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="672.398438,346.195312" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="683.953125,226.925781" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="827.671875,231.601562" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>34, 75</ConnectedNoteIDs>
+            <PointsToNoteIDs>75</PointsToNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="604.816406,119.355469" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 1</String>
+            <ConnectedNoteIDs>49, 60</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="694.5,102.992188" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="822.730469,108.011719" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>47, 68</ConnectedNoteIDs>
+            <PointsToNoteIDs>68</PointsToNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="499.691406,246.273438" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoB</String>
+            <ConnectedNoteIDs>32, 57</ConnectedNoteIDs>
+            <PointsToNoteIDs>57</PointsToNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="133.773438,405.195312" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 3</String>
+            <ConnectedNoteIDs>52, 55</ConnectedNoteIDs>
+            <PointsToNoteIDs>55</PointsToNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="33.773438,404.195312" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoC</String>
+            <ConnectedNoteIDs>51</ConnectedNoteIDs>
+            <PointsToNoteIDs>51</PointsToNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="210.0,358.746094" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>Initial Cycle</String>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="223.621094,388.421875" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>makes new instrument, score, recording. </String>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="367.140625,392.8125" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>51, 60</ConnectedNoteIDs>
+            <PointsToNoteIDs>60</PointsToNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="593.816406,391.355469" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 3</String>
+            <ConnectedNoteIDs>50, 59</ConnectedNoteIDs>
+            <PointsToNoteIDs>59</PointsToNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="684.171875,374.871094" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="827.222656,379.855469" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>57, 79</ConnectedNoteIDs>
+            <PointsToNoteIDs>79</PointsToNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="500.074219,393.976562" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoC</String>
+            <ConnectedNoteIDs>47, 55</ConnectedNoteIDs>
+            <PointsToNoteIDs>47</PointsToNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="667.960938,199.441406" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="671.566406,66.113281" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="1081.050781,239.992188" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 2</String>
+            <ConnectedNoteIDs>71, 109</ConnectedNoteIDs>
+            <PointsToNoteIDs>71</PointsToNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="961.519531,114.039062" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoC</String>
+            <ConnectedNoteIDs>49, 76</ConnectedNoteIDs>
+            <PointsToNoteIDs>76</PointsToNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="1159.386719,342.585938" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="1170.941406,223.316406" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="1314.660156,227.992188" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>67, 99</ConnectedNoteIDs>
+            <PointsToNoteIDs>99</PointsToNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="1091.804688,115.746094" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 1</String>
+            <ConnectedNoteIDs>74, 79</ConnectedNoteIDs>
+            <PointsToNoteIDs>74</PointsToNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="1181.488281,99.382812" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="1330.382812,110.667969" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>72, 92</ConnectedNoteIDs>
+            <PointsToNoteIDs>92</PointsToNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="959.519531,242.039062" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoA</String>
+            <ConnectedNoteIDs>38, 111</ConnectedNoteIDs>
+            <PointsToNoteIDs>111</PointsToNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="1080.804688,387.746094" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 3</String>
+            <ConnectedNoteIDs>68, 78</ConnectedNoteIDs>
+            <PointsToNoteIDs>78</PointsToNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="1171.347656,371.667969" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="1314.878906,375.9375" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>76, 103</ConnectedNoteIDs>
+            <PointsToNoteIDs>103</PointsToNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="960.519531,390.039062" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoB</String>
+            <ConnectedNoteIDs>59, 72</ConnectedNoteIDs>
+            <PointsToNoteIDs>72</PointsToNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="1154.949219,195.832031" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="1158.554688,62.503906" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="600.0,541.0" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 4</String>
+            <ConnectedNoteIDs>86, 89</ConnectedNoteIDs>
+            <PointsToNoteIDs>89</PointsToNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="505.429688,539.503906" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoD</String>
+            <ConnectedNoteIDs>85</ConnectedNoteIDs>
+            <PointsToNoteIDs>85</PointsToNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="676.605469,495.296875" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>Initial Cycle</String>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="689.757812,524.132812" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>makes new instrument, score, recording. </String>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="833.515625,528.855469" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>85, 109</ConnectedNoteIDs>
+            <PointsToNoteIDs>109</PointsToNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="1452.050781,120.582031" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoB</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="1450.050781,248.582031" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoD</String>
+            <ConnectedNoteIDs>71</ConnectedNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="1450.796875,396.832031" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoC</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="975.363281,534.011719" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoD</String>
+            <ConnectedNoteIDs>67, 89</ConnectedNoteIDs>
+            <PointsToNoteIDs>67</PointsToNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="1155.1875,489.578125" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.331867 0.609932 0.356197</Border>
+                <Fill>0.790123 0.882328 0.80198</Fill>
+            </Appearance>
+            <String>Iterative Cycle</String>
+        </Note>
+        <Note ID="111" FontSize="12.0" Position="1077.0,535.0" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 4</String>
+            <ConnectedNoteIDs>75, 113</ConnectedNoteIDs>
+            <PointsToNoteIDs>113</PointsToNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="12.0" Position="1166.363281,518.902344" Width="101.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>edits instrument, score, makes new recording. </String>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="1310.160156,523.191406" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>working versions due</String>
+            <ConnectedNoteIDs>111, 115</ConnectedNoteIDs>
+            <PointsToNoteIDs>115</PointsToNoteIDs>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="1445.050781,538.582031" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoA</String>
+            <ConnectedNoteIDs>113</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="220.0,18.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>CYCLE 1</String>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="683.761719,14.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>CYCLE 2</String>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="1169.0,11.0" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>CYCLE 3</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="19" Sticky="No" Position="105.0,87.0" Width="368.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="33" Sticky="No" Position="104.0,221.0" Width="364.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="56" Sticky="No" Position="101.0,369.0" Width="370.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="61" Sticky="No" Position="574.042969,357.160156" Width="352.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="64" Sticky="No" Position="573.042969,211.160156" Width="352.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="66" Sticky="No" Position="571.042969,79.160156" Width="350.0" Height="95.871094">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="80" Sticky="No" Position="1073.207031,353.996094" Width="355.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="82" Sticky="No" Position="1071.207031,206.996094" Width="360.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="84" Sticky="No" Position="1078.207031,73.996094" Width="355.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="90" Sticky="No" Position="574.003906,505.273438" Width="355.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="114" Sticky="No" Position="1069.007812,500.988281" Width="353.0" Height="97.632812">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <AutoFit>1, 4, 10, 28-30, 34-36, 47, 50-53, 57, 60, 63, 65, 67-69, 72, 75-76, 79, 81, 83, 85-87, 92, 99, 103, 109-111, 115-118</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="D3DEF138-7B85-4BF7-9E72-BDA9B4A12464" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="8FB3A6BD-3B4D-4557-BA4A-B0F10B459610" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="EE7C8EC6-EC99-4CC3-9AD2-0E6DD69542D9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="60018E60-0E58-4D78-A95E-545F6F317796" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="F326DBF6-CBEF-4305-AE8A-5A67653DABB8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882328 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="608BE52D-80CA-4FB2-B072-E13D73E0FD0B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="AF8051B2-7B18-4131-86EA-65B324DC5337" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
