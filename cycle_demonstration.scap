@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="3B61140B-6669-4D95-A331-6A0A56DEB439">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="391.597656,275.996094" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 1</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="390.910156,309.140625" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 2</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="391.367188,349.226562" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>participant 3</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="224.597656,279.226562" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoA</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <PointsToNoteIDs>1</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="223.597656,314.226562" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoB</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+            <PointsToNoteIDs>2</PointsToNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="223.597656,354.226562" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repoC</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="289.015625,231.222656" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Initial Cycle</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="527.332031,273.242188" Width="134.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>makes new instrument, score, recording</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>1-6, 10</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="D3DEF138-7B85-4BF7-9E72-BDA9B4A12464" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="8FB3A6BD-3B4D-4557-BA4A-B0F10B459610" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="EE7C8EC6-EC99-4CC3-9AD2-0E6DD69542D9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="60018E60-0E58-4D78-A95E-545F6F317796" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="F326DBF6-CBEF-4305-AE8A-5A67653DABB8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882328 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="608BE52D-80CA-4FB2-B072-E13D73E0FD0B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="AF8051B2-7B18-4131-86EA-65B324DC5337" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
