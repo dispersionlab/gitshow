@@ -1,0 +1,57 @@
+[
+  {
+    "gitshow1": {
+      "presentationObjects": 48,
+      "nonPresentationObjects": 213,
+      "totalObjects": 261,
+      "presentationPercentage": 0.1839080459770115,
+      "comments": 44,
+      "maxpats": 5,
+      "modularity": 0.019157088122605363
+    }
+  },
+  {
+    "gitshow3": {
+      "presentationObjects": 19,
+      "nonPresentationObjects": 87,
+      "totalObjects": 106,
+      "presentationPercentage": 0.1792452830188679,
+      "comments": 22,
+      "maxpats": 2,
+      "modularity": 0.018867924528301886
+    }
+  },
+  {
+    "gitshow4": {
+      "presentationObjects": 201,
+      "nonPresentationObjects": 193,
+      "totalObjects": 394,
+      "presentationPercentage": 0.5101522842639594,
+      "comments": 84,
+      "maxpats": 4,
+      "modularity": 0.01015228426395939
+    }
+  },
+  {
+    "gitshow5": {
+      "presentationObjects": 14,
+      "nonPresentationObjects": 40,
+      "totalObjects": 54,
+      "presentationPercentage": 0.25925925925925924,
+      "comments": 11,
+      "maxpats": 1,
+      "modularity": 0.018518518518518517
+    }
+  },
+  {
+    "gitshow6": {
+      "presentationObjects": 0,
+      "nonPresentationObjects": 24,
+      "totalObjects": 24,
+      "presentationPercentage": 0,
+      "comments": 1,
+      "maxpats": 1,
+      "modularity": 0.041666666666666664
+    }
+  }
+]

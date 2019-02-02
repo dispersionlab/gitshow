@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="6C831008-074E-444E-B8D1-6C37C284D6F3">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="174.0,285.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow4 0.5101</String>
+            <ConnectedNoteIDs>2, 20</ConnectedNoteIDs>
+            <PointsToNoteIDs>20</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="106.476562,283.507812" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Michael</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="172.0,247.0" Width="103.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow3 0.17924</String>
+            <ConnectedNoteIDs>7, 17</ConnectedNoteIDs>
+            <PointsToNoteIDs>17</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="178.0,339.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow5 0.2592</String>
+            <ConnectedNoteIDs>8, 19</ConnectedNoteIDs>
+            <PointsToNoteIDs>19</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="174.0,193.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow1 0.1839</String>
+            <ConnectedNoteIDs>9, 18</ConnectedNoteIDs>
+            <PointsToNoteIDs>18</PointsToNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="181.0,392.0" Width="66.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow6 0</String>
+            <ConnectedNoteIDs>10, 16</ConnectedNoteIDs>
+            <PointsToNoteIDs>16</PointsToNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="106.875,241.746094" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Kieran</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="116.558594,337.613281" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Rory</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="101.320312,191.585938" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Amir</String>
+            <ConnectedNoteIDs>5</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="107.964844,387.820312" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Holland</String>
+            <ConnectedNoteIDs>6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="388.824219,285.449219" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Michael</String>
+            <ConnectedNoteIDs>6, 25</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="389.222656,243.6875" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>Kieran</String>
+            <ConnectedNoteIDs>3, 22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="398.90625,339.554688" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Rory</String>
+            <ConnectedNoteIDs>5, 24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="383.667969,193.527344" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Amir</String>
+            <ConnectedNoteIDs>4, 23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="390.3125,389.761719" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Holland</String>
+            <ConnectedNoteIDs>1, 21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="452.152344,383.664062" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow4 0.01015</String>
+            <ConnectedNoteIDs>20, 30</ConnectedNoteIDs>
+            <PointsToNoteIDs>30</PointsToNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="451.0,243.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>gitshow3 0.0188</String>
+            <ConnectedNoteIDs>17, 29</ConnectedNoteIDs>
+            <PointsToNoteIDs>29</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="453.0,190.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow5 0.0185</String>
+            <ConnectedNoteIDs>19, 27</ConnectedNoteIDs>
+            <PointsToNoteIDs>27</PointsToNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="453.0,339.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow1 0.0191</String>
+            <ConnectedNoteIDs>18, 26</ConnectedNoteIDs>
+            <PointsToNoteIDs>26</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="450.777344,286.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow6 0.0416</String>
+            <ConnectedNoteIDs>16, 28</ConnectedNoteIDs>
+            <PointsToNoteIDs>28</PointsToNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="621.378906,278.125" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Michael</String>
+            <ConnectedNoteIDs>24, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="621.777344,236.363281" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Kieran</String>
+            <ConnectedNoteIDs>23, 32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="631.460938,332.230469" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Rory</String>
+            <ConnectedNoteIDs>25, 34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="636.230469,188.964844" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Amir</String>
+            <ConnectedNoteIDs>22, 33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="622.867188,382.4375" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Holland</String>
+            <ConnectedNoteIDs>21, 31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="703.042969,381.972656" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow4 </String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="702.042969,240.972656" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow3</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="686.273438,188.214844" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow5</String>
+            <ConnectedNoteIDs>29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="704.042969,336.972656" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow1 </String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="702.042969,283.972656" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gitshow6</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="173.734375,115.6875" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repo w/ highest % of presentationObjects swapped with lowest, 2nd-highest with 2nd-lowest</String>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="501.695312,114.632812" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>repo w/ highest modularity swapped with 2nd-highest modularity; 3rd-highest swapped with 4th-highest</String>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="353.300781,36.082031" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>End of Cycle 1 - Determining authorship for cycle 2</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>1-7, 9-10, 16-17, 19-20, 22-27, 29-35</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="4BC99D5D-88F3-4FC3-93F5-45F7C6B30846" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="3EA8F3B1-0551-4498-9ECE-6D4AA2D7BBB4" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="9DA7847C-84E3-456D-AAAD-D6E459D96031" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="60ABE144-9D9B-4054-B271-4688980CBD18" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="29A6D3A5-972F-4718-9F38-1A59273BB117" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882328 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="7F961990-75A0-43AF-B448-44DD7E7111C9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="52F06511-417D-4FD7-B45F-6631BBFD1C72" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
