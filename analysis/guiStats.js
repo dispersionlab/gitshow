@@ -5,7 +5,6 @@ let presentationObjects = 0;
 let nonPresentationObjects = 0;
 let totalObjects = 0
 let comments = 0
-let patcherCount = 0
 let data = []
 let repos = process.argv[2].split(",")
 
