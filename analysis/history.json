@@ -1,0 +1,837 @@
+{
+	"REFS": {
+		"HEAD": "master"
+	},
+	"commits": [
+		{
+			"sha1": "673328a3e54d1f3dadaafe6bbd9189d4c2ed638d",
+			"parents": [
+				"7aa64f6c9d682a34e8b8df99514ba435d135968d"
+			],
+			"tree": "9ea7c0c45918d09ece40ad00a346da4995108087",
+			"author": {
+				"user": {
+					"name": "dvnt_pro",
+					"email": "dvnt.sea@gmail.com"
+				},
+				"date": "2019-10-30T22:16:10-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "dvnt_pro",
+					"email": "dvnt.sea@gmail.com"
+				},
+				"date": "2019-10-30T22:16:10-04:00"
+			},
+			"message": "one",
+			"refs": [
+				"master",
+				"origin/master",
+				"origin/HEAD"
+			]
+		},
+		{
+			"sha1": "7aa64f6c9d682a34e8b8df99514ba435d135968d",
+			"parents": [
+				"de85426af32a504213d8a3a566ed950be548e9a9"
+			],
+			"tree": "417e88b6db4b8238ba763af7eed21f34d8616a9c",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T12:47:46-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T12:47:46-04:00"
+			},
+			"message": "prepared phase2"
+		},
+		{
+			"sha1": "de85426af32a504213d8a3a566ed950be548e9a9",
+			"parents": [
+				"56e4cf5ea3f2e932e9f63b905866bc6caa4c962f"
+			],
+			"tree": "fc90552d982b95b4b22aa5404b04b0457745053d",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T12:16:53-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T12:16:53-04:00"
+			},
+			"message": "prep for phase2"
+		},
+		{
+			"sha1": "56e4cf5ea3f2e932e9f63b905866bc6caa4c962f",
+			"parents": [
+				"08dbf5e12fe4890d58ec0e60cb646ec71c5c8c38"
+			],
+			"tree": "c8ebd4a40b3bf7020766fe99c8d7ec6342d2e485",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:16:44-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:16:44-04:00"
+			},
+			"message": "example module and patch"
+		},
+		{
+			"sha1": "08dbf5e12fe4890d58ec0e60cb646ec71c5c8c38",
+			"parents": [
+				"e203cf831df246f60428cd9f9878290c0b44e558",
+				"7fc0a28889913d49b5cbd2ccb175a467353ac333"
+			],
+			"tree": "4460c59a878cd93c735da7316f4c91cb0c8bf233",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:04:47-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:04:47-04:00"
+			},
+			"message": "remove readme"
+		},
+		{
+			"sha1": "e203cf831df246f60428cd9f9878290c0b44e558",
+			"parents": [
+				"24cab10db32d394155773363001c4f4f9a30e8cd"
+			],
+			"tree": "4460c59a878cd93c735da7316f4c91cb0c8bf233",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:04:15-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:04:15-04:00"
+			},
+			"message": "clean master in prep for phase2"
+		},
+		{
+			"sha1": "9aa0c7213b788fded8aa69b4516638ce31244210",
+			"parents": [
+				"24cab10db32d394155773363001c4f4f9a30e8cd"
+			],
+			"tree": "e586454dfa3a0a1122c85e48d04a28e43c325d53",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:02:54-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-10-24T11:02:54-04:00"
+			},
+			"message": "these are just experiments made while investigating best code platform/language for phase2",
+			"refs": [
+				"origin/experiments4phase2",
+				"experiments4phase2"
+			]
+		},
+		{
+			"sha1": "7fc0a28889913d49b5cbd2ccb175a467353ac333",
+			"parents": [
+				"24cab10db32d394155773363001c4f4f9a30e8cd"
+			],
+			"tree": "0588ac088f0c608b2ba4139591791ce88fd1ce2b",
+			"author": {
+				"user": {
+					"name": "thedispersionlab",
+					"email": "dispersion.relation@gmail.com"
+				},
+				"date": "2019-10-17T07:20:11-04:00"
+			},
+			"committer": {
+				"user": {
+					"name": "thedispersionlab",
+					"email": "dispersion.relation@gmail.com"
+				},
+				"date": "2019-10-17T07:20:11-04:00"
+			},
+			"message": "moved phase1 contents to branch phase1, removed from master"
+		},
+		{
+			"sha1": "24cab10db32d394155773363001c4f4f9a30e8cd",
+			"parents": [
+				"b69f87a14fdfc67acd2c878aa11719bfe5704f14"
+			],
+			"tree": "72187bac6d5d1f8b408f8b57ddae5e27bff87256",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:56:29-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:56:29-05:00"
+			},
+			"message": "finalizing score title for the tennis fans out there",
+			"tags": [
+				"cycle2"
+			],
+			"refs": [
+				"origin/phase1",
+				"phase1"
+			]
+		},
+		{
+			"sha1": "b69f87a14fdfc67acd2c878aa11719bfe5704f14",
+			"parents": [
+				"a6230169abd0ed80c69cd9a3857b42cc448fa5c0"
+			],
+			"tree": "670537653d9547b73db1e652980df72b9c4daa64",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-02-07T01:51:03-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-02-07T01:51:03-05:00"
+			},
+			"message": "let's try this again",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		},
+		{
+			"sha1": "a6230169abd0ed80c69cd9a3857b42cc448fa5c0",
+			"parents": [
+				"6342d92ede2def516cd61d10066bdecd2da928c2"
+			],
+			"tree": "4efdd53cdfdc620908c39367560e619520615284",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-02-07T01:50:45-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-02-07T01:50:45-05:00"
+			},
+			"message": "formatting changes to win",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		},
+		{
+			"sha1": "6342d92ede2def516cd61d10066bdecd2da928c2",
+			"parents": [
+				"69158dd377af2c11ff12f702cd25452b91954960"
+			],
+			"tree": "0798396d527aa16cb44d3c0e6c519e760d7a9090",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-02-07T01:49:13-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-02-07T01:49:13-05:00"
+			},
+			"message": "Update README.md",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		},
+		{
+			"sha1": "69158dd377af2c11ff12f702cd25452b91954960",
+			"parents": [
+				"43deee7b26a2e479e074364a275428c542137cc5"
+			],
+			"tree": "73c3262e80085046d726dfc02cf49796303c3390",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:47:26-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:47:26-05:00"
+			},
+			"message": "finished working on the synth, score, and recording"
+		},
+		{
+			"sha1": "43deee7b26a2e479e074364a275428c542137cc5",
+			"parents": [
+				"232bda6588ab6f87a1fcdd8e381a3c021fae8490"
+			],
+			"tree": "8db434b80cb3eca5854fa0bc67b6c1f313daf067",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:33:46-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:33:46-05:00"
+			},
+			"message": "score is ready, still need to make a recording"
+		},
+		{
+			"sha1": "232bda6588ab6f87a1fcdd8e381a3c021fae8490",
+			"parents": [
+				"938badc006139e050e1f84f1687eb85623fc08ec"
+			],
+			"tree": "0563021fd93b2e54b5c733a673a859f4e3d8f685",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:12:33-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T01:12:33-05:00"
+			},
+			"message": "finished work on the synth. its a weird one"
+		},
+		{
+			"sha1": "938badc006139e050e1f84f1687eb85623fc08ec",
+			"parents": [
+				"7a08c6fcdb023b13586208f9f01742fe3dc260ca"
+			],
+			"tree": "0902a06fd652ac0981d01b33957700733088aef5",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T00:27:56-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T00:27:56-05:00"
+			},
+			"message": "added algorithm to briefly pause audio, then swithc grain numbers, then restart audio"
+		},
+		{
+			"sha1": "7a08c6fcdb023b13586208f9f01742fe3dc260ca",
+			"parents": [
+				"63a1ceb0b6688c33de313e6253b439a910265315"
+			],
+			"tree": "e3164d3624c3415d246081e1d66c8f2d80b68f3e",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T00:22:42-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-07T00:22:42-05:00"
+			},
+			"message": "nearly ready. but it crashes now when changing number of grains."
+		},
+		{
+			"sha1": "63a1ceb0b6688c33de313e6253b439a910265315",
+			"parents": [
+				"27e5ec6ba382e507f3612797f1948243ff7e1757"
+			],
+			"tree": "bb449ce88ea0f1aba7ac2d62a4f8a13d923d524a",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T23:37:37-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T23:37:37-05:00"
+			},
+			"message": "added a function generator for ramping signals"
+		},
+		{
+			"sha1": "27e5ec6ba382e507f3612797f1948243ff7e1757",
+			"parents": [
+				"76e47ed530696125a52f0670783ad15fac71af1b"
+			],
+			"tree": "95e171358b6f5ebd6ffb95d7dca43d1c71b6fbe6",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T22:03:20-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T22:03:20-05:00"
+			},
+			"message": "working on poly~ portion of synth engine"
+		},
+		{
+			"sha1": "76e47ed530696125a52f0670783ad15fac71af1b",
+			"parents": [
+				"5c75ab0e2016ef8b625be4b91cb5d14f8a72e78d"
+			],
+			"tree": "feb01a031803b363987dbd4ebd53a9ed93392e10",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:50:27-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:50:27-05:00"
+			},
+			"message": "added looper within buffer",
+			"refs": [
+				"feature"
+			]
+		},
+		{
+			"sha1": "ec79f6478735a03a6970219165a7f4799045ca17",
+			"parents": [
+				"5c75ab0e2016ef8b625be4b91cb5d14f8a72e78d",
+				"174f32cfe0e7455a512af6b560e2a1a00d68e0aa"
+			],
+			"tree": "1be39cdcc6bdbd9ca0ff0badca6c6fc33de8bbff",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:28:28-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:28:28-05:00"
+			},
+			"message": "WIP on master: 5c75ab0 patch proved buggy with freeverb~.mxo. swapped it out for the gen~ implementation of freeverb algorithm",
+			"refs": [
+				"refs/stash"
+			]
+		},
+		{
+			"sha1": "174f32cfe0e7455a512af6b560e2a1a00d68e0aa",
+			"parents": [
+				"5c75ab0e2016ef8b625be4b91cb5d14f8a72e78d"
+			],
+			"tree": "c581794391f5f3286f54cf27ef822688e4040a92",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:28:28-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:28:28-05:00"
+			},
+			"message": "index on master: 5c75ab0 patch proved buggy with freeverb~.mxo. swapped it out for the gen~ implementation of freeverb algorithm"
+		},
+		{
+			"sha1": "5c75ab0e2016ef8b625be4b91cb5d14f8a72e78d",
+			"parents": [
+				"39cfddba14f63a70c558c701f2f732535bb177f5"
+			],
+			"tree": "c581794391f5f3286f54cf27ef822688e4040a92",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:10:37-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T21:10:37-05:00"
+			},
+			"message": "patch proved buggy with freeverb~.mxo. swapped it out for the gen~ implementation of freeverb algorithm"
+		},
+		{
+			"sha1": "39cfddba14f63a70c558c701f2f732535bb177f5",
+			"parents": [
+				"0b62f893ace153ab1b0e7f650f5ec1f5193ebf4b"
+			],
+			"tree": "6085c7987ff6b370d45a28940e4292e030e7c63a",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T20:51:17-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T20:51:17-05:00"
+			},
+			"message": "couldn't find freeverb~ external. Located it in obscure c74 forum and added it to repo."
+		},
+		{
+			"sha1": "0b62f893ace153ab1b0e7f650f5ec1f5193ebf4b",
+			"parents": [
+				"781d71e24ec64a217107046faaaf9da918b3c7d2"
+			],
+			"tree": "67b8f75e8313726b38a985710b42dad0f5fcd2e5",
+			"author": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T20:46:47-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-06T20:46:47-05:00"
+			},
+			"message": "moved child dependencies into root folder"
+		},
+		{
+			"sha1": "781d71e24ec64a217107046faaaf9da918b3c7d2",
+			"parents": [
+				"f0d7c43da2ccf6a19f27f9af4d05337bae4b4ae4",
+				"601c48e1c7a609dd3c1951ed2621c20cab1d274f"
+			],
+			"tree": "6728f3cd95f6cb3045cc205572ec8f2403deec7f",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-02-03T22:56:45-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-02-03T22:56:45-05:00"
+			},
+			"message": "Merge pull request #1 from dispersionlab/gitshow1/cycle1-forgot-to-push\n\nforgot to push score and recording during cycle1",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		},
+		{
+			"sha1": "601c48e1c7a609dd3c1951ed2621c20cab1d274f",
+			"parents": [
+				"f0d7c43da2ccf6a19f27f9af4d05337bae4b4ae4"
+			],
+			"tree": "6728f3cd95f6cb3045cc205572ec8f2403deec7f",
+			"author": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-02-03T22:35:46-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-02-03T22:35:46-05:00"
+			},
+			"message": "forgot to push score and recording during cycle1",
+			"refs": [
+				"origin/cycle1-forgot-to-push"
+			]
+		},
+		{
+			"sha1": "f0d7c43da2ccf6a19f27f9af4d05337bae4b4ae4",
+			"parents": [
+				"2e1fe0ea9554dc549adcb87dc070c51c2d2350fa"
+			],
+			"tree": "0d0202cfc66da5334f994c9bbb1c958d3b298f13",
+			"author": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-01-30T23:16:00-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-01-30T23:16:00-05:00"
+			},
+			"message": "when synthia was born aka. first version of my synth called synthia",
+			"tags": [
+				"cycle1"
+			]
+		},
+		{
+			"sha1": "2e1fe0ea9554dc549adcb87dc070c51c2d2350fa",
+			"parents": [
+				"8fb377816e53531e79dfdc6ea1f1286936a53e60"
+			],
+			"tree": "dad2edbe7c97bae91edcbd13a7fb5f3b03287ef4",
+			"author": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-01-30T22:26:07-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "amirbahador",
+					"email": "amirbahador@amirbahadors-MacBook-Pro-2.local"
+				},
+				"date": "2019-01-30T22:26:07-05:00"
+			},
+			"message": " testing"
+		},
+		{
+			"sha1": "8fb377816e53531e79dfdc6ea1f1286936a53e60",
+			"parents": [
+				"98305b8403fe58cd4644496f75a62e8c72244b39"
+			],
+			"tree": "06ffe3401d2a4f690c151eabc9e2dff16dbad892",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-01-26T14:39:23-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-01-26T14:39:23-05:00"
+			},
+			"message": "pesky ds_store",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		},
+		{
+			"sha1": "98305b8403fe58cd4644496f75a62e8c72244b39",
+			"parents": [],
+			"tree": "fa2555f1f7c8fb6997a4cbc0bf89eb5cda1bcb2a",
+			"author": {
+				"user": {
+					"name": "Michael Palumbo",
+					"email": "michaelpalumbo@users.noreply.github.com"
+				},
+				"date": "2019-01-26T14:38:47-05:00"
+			},
+			"committer": {
+				"user": {
+					"name": "GitHub",
+					"email": "noreply@github.com"
+				},
+				"date": "2019-01-26T14:38:47-05:00"
+			},
+			"message": "Initial commit",
+			"GPG": {
+				"type": "E",
+				"key": "4AEE18F83AFDEB23"
+			}
+		}
+	],
+	"heads": {
+		"experiments4phase2": {
+			"sha1": "9aa0c7213b788fded8aa69b4516638ce31244210",
+			"type": "commit",
+			"size": 331,
+			"upstream": "refs/remotes/origin/experiments4phase2",
+			"push": "refs/remotes/origin/experiments4phase2"
+		},
+		"feature": {
+			"sha1": "76e47ed530696125a52f0670783ad15fac71af1b",
+			"type": "commit",
+			"size": 267,
+			"push": "refs/remotes/origin/feature"
+		},
+		"master": {
+			"sha1": "673328a3e54d1f3dadaafe6bbd9189d4c2ed638d",
+			"type": "commit",
+			"size": 210,
+			"upstream": "refs/remotes/origin/master",
+			"push": "refs/remotes/origin/master",
+			"HEAD": true
+		},
+		"phase1": {
+			"sha1": "24cab10db32d394155773363001c4f4f9a30e8cd",
+			"type": "commit",
+			"size": 293,
+			"push": "refs/remotes/origin/phase1"
+		}
+	},
+	"tags": {
+		"cycle1": {
+			"sha1": "203370c3ab641a6c3558a63b4c63aab78f151f55",
+			"type": "tag",
+			"size": 174,
+			"objecttype": "commit",
+			"object": "f0d7c43da2ccf6a19f27f9af4d05337bae4b4ae4",
+			"tagger": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-01T22:55:44-05:00"
+			},
+			"message": "no score no title no recording"
+		},
+		"cycle2": {
+			"sha1": "d9f8da5c122d3e32fb6264b8b50a5f0222573320",
+			"type": "tag",
+			"size": 225,
+			"objecttype": "commit",
+			"object": "24cab10db32d394155773363001c4f4f9a30e8cd",
+			"tagger": {
+				"user": {
+					"name": "michaelpalumbo",
+					"email": "emailmichaelpalumbo@gmail.com"
+				},
+				"date": "2019-02-08T23:37:11-05:00"
+			},
+			"message": "Instrument: Main, Score title: Bleat Sampras, Recording Title: Stevia Buscemi.aif"
+		}
+	},
+	"remotes": {
+		"origin": {
+			"HEAD": {
+				"sha1": "673328a3e54d1f3dadaafe6bbd9189d4c2ed638d",
+				"type": "commit",
+				"size": 210
+			},
+			"cycle1-forgot-to-push": {
+				"sha1": "601c48e1c7a609dd3c1951ed2621c20cab1d274f",
+				"type": "commit",
+				"size": 313
+			},
+			"experiments4phase2": {
+				"sha1": "9aa0c7213b788fded8aa69b4516638ce31244210",
+				"type": "commit",
+				"size": 331
+			},
+			"master": {
+				"sha1": "673328a3e54d1f3dadaafe6bbd9189d4c2ed638d",
+				"type": "commit",
+				"size": 210
+			},
+			"phase1": {
+				"sha1": "24cab10db32d394155773363001c4f4f9a30e8cd",
+				"type": "commit",
+				"size": 293
+			}
+		}
+	},
+	"stash": {
+		"sha1": "ec79f6478735a03a6970219165a7f4799045ca17",
+		"type": "commit",
+		"size": 415
+	}
+}
