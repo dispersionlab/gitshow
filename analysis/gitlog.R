@@ -12,7 +12,10 @@ library(plotly)
 ## ghg_raw <- readr("./analysis/commits.iso.csv")
 
 # set Rstudio's working directory for this session:
+# on lab machines
 setwd('./dispersion-code/gitshows/gitshow/analysis')
+# on my laptop
+setwd('./_gitshows/gitshow/analysis')
 # confirm the working dir
 getwd()
 
