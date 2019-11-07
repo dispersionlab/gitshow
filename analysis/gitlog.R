@@ -3,9 +3,10 @@
 
 ## install.packages("tidyverse") ## If not already done
 library(tidyverse) ## Will load ggplot2 and others
+install.packages("readr")
 
 ## Download the raw data
-ghg_raw <- read_csv("./_gitshows/gitshow/log.csv")
+ghg_raw <- readr("./analysis/commits.iso.csv")
 
 ## View the data
 ## RStudio: click on variable name in upper right

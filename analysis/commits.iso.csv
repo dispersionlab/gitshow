@@ -1,3 +1,7 @@
+5cb06fc	Michael Palumbo	2019-11-06 17:02:06 -0500	Update README.md
+c50cf0b	michaelpalumbo	2019-11-06 16:59:32 -0500	fix error due to large file size
+55881c1	michaelpalumbo	2019-11-06 16:50:46 -0500	update webpage
+7dacc17	michaelpalumbo	2019-11-06 16:42:57 -0500	push the mainpage to github.io
 127d179	Michael Palumbo	2019-10-16 16:15:40 -0400	Create vcvrack.md
 7f4c6f6	michaelpalumbo	2019-02-01 22:35:38 -0500	removed analysis folder
 9f922c1	michaelpalumbo	2019-02-01 22:32:58 -0500	reorganized repo, updated script to be more forgiving with cli args.

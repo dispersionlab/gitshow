@@ -1,0 +1,26 @@
+hash, parentHash, author, utc, comment
+306357e,,Michael Palumbo,Initial commit
+5973d9d,306357e,Michael Palumbo,Create README.md
+c644aaa,5973d9d,Michael Palumbo,added link to participation instructions to readme.md
+8a5b554,c644aaa,Michael Palumbo,Update README.md
+50c114b,8a5b554,Michael Palumbo,clarity
+9de58a4,50c114b,Michael Palumbo,Update README.md
+092ea63,9de58a4,Michael Palumbo,readme.md matches wiki/home for now
+a0a252b,092ea63,Michael Palumbo,Update README.md
+9923589,a0a252b,Michael Palumbo,Update README.md
+11b97f1,9923589,Michael Palumbo,Update README.md
+48b5264,11b97f1,Michael Palumbo,Update README.md
+d5b86e5,48b5264,Michael Palumbo,pesky ds store
+7a32565,48b5264,michaelpalumbo,diagram of the cycles for the participation wiki page
+efe21ff,7a32565 d5b86e5,michaelpalumbo,Merge branch 'master' of https://github.com/dispersionlab/gitshow
+3016f91,efe21ff,michaelpalumbo,finished 3-cycle demo
+ebdf54f,3016f91,michaelpalumbo,guiStats.js reports a few simple stats of each instrument's gui
+e231dc2,ebdf54f,michaelpalumbo,guiStats.js created for analysis of cycle1
+e4e4831,e231dc2,michaelpalumbo,completed authorship determination for cycle 1 into cycle 2
+9f922c1,e4e4831,michaelpalumbo,reorganized repo. updated script to be more forgiving with cli args.
+7f4c6f6,9f922c1,michaelpalumbo,removed analysis folder
+127d179,7f4c6f6,Michael Palumbo,Create vcvrack.md
+7dacc17,127d179,michaelpalumbo,push the mainpage to github.io
+55881c1,7dacc17,michaelpalumbo,update webpage
+c50cf0b,55881c1,michaelpalumbo,fix error due to large file size
+5cb06fc,c50cf0b,Michael Palumbo,Update README.md
