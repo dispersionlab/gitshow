@@ -9,16 +9,16 @@ exec('git log --full-history --reverse --parents --date=unix --pretty=format:"%h
     let line = stderr.split('\n')
 
     // since rstudio separates columns by commas, we need to replace any commas appearing in the commit comment with periods. 
+    // to do: in the rstudio data-import cheatsheet, it says you can also load tab-delimited csv files using read.tsv, so in the future just put %x09 in between each --pretty format variable instead of commas. 
     for (i = 0; i < line.length; i++){
         // get the comment, replace commas with periods
         let comment = line[i].split(',').slice(4).join(',').replace(/,/g, '.')
         // join the updated comment with the rest of commit
-        let formatedComment = line[i].split(',').slice(0,3).join(',') + ',' + comment + '\n'
-        // console.log(formatedComment)
+        let formatedComment = line[i].split(',').slice(0,4).join(',') + ',' + comment + '\n'
+        console.log(formatedComment)
         // append to file
         fs.appendFileSync('./commits.csv', formatedComment)
     }
-    
 })
 
 // figure out how to format the csv so that Rstudio can access the filenames reported by git log --name-status

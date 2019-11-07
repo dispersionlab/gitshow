@@ -4,13 +4,24 @@
 ## install.packages("tidyverse") ## If not already done
 library(tidyverse) ## Will load ggplot2 and others
 install.packages("readr")
+install.packages('plotly')
+library(plotly)
+
 
 ## Download the raw data
-ghg_raw <- readr("./analysis/commits.iso.csv")
+## ghg_raw <- readr("./analysis/commits.iso.csv")
+
+# set Rstudio's working directory for this session:
+setwd('./dispersion-code/gitshows/gitshow/analysis')
+# confirm the working dir
+getwd()
+
+# load generated git logfile (from the nodejs script log2json.js)
+logfile <- read.csv('./commits.csv')
 
 ## View the data
 ## RStudio: click on variable name in upper right
-ghg_raw
+logfile
 
 ## Tidy it up: variables are columns, 
 ## observations are rows, 
@@ -19,7 +30,7 @@ ghg_raw
 
 ## We’re using the pipe and the tidyr package here,
 ## but consider it magic for now.
-ghg <- ghg_raw %>% pivot_longer(-year, names_to = "sector", values_to = "emissions")
+ghg <- logfile %>% pivot_longer(-year, names_to = "sector", values_to = "emissions")
 
 ## View it now
 ## RStudio: click on variable name in uppper right
@@ -28,8 +39,10 @@ ghg
 
 ## Always a nice way to start: scatter plot 
 ## Here we’ll do it by sector
-ggplot(data = ghg, aes(x = sector, y = emissions)) + geom_point()
+graph <- ggplot(data = logfile, aes(hash, parentHash, x = utc, y = author, comment)) + geom_point()
+#ggplotly(graph)
 
+ggplot
 ## Try just this: no points!
 ggplot(data = ghg, aes(x = sector, y = emissions))
 
@@ -41,7 +54,7 @@ ggplot(data = ghg, aes(x = sector, y = emissions)) + geom_jitter(width = 0.3)
 
 ## Box plot (shows first and third quartiles, and median)
 ## https://ggplot2.tidyverse.org/reference/geom_boxplot.html
-ggplot(data = ghg, aes(x = sector, y = emissions)) + geom_boxplot() + geom_jitter()
+ggplot(data = logfile, aes(x = hash, y = parentHash)) + geom_boxplot() + geom_jitter()
 
 ## Compare the oil_gas column to the summary data here
 ghg %>% filter(sector == "oil_gas") %>% summary()
