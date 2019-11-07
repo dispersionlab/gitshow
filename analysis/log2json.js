@@ -1,26 +1,137 @@
 // const fullGitHistory = require('full-git-history');
 const fs = require('fs')
-const {exec} = require('child_process')
+const {exec, execSync} = require('child_process')
 
-exec('git log --full-history --reverse --parents --date=unix --pretty=format:"%h,%p,%an,%ad,%s"', (stdout, stderr, err) =>{
-    let columnNames = 'hash, parentHash, author, utc, comment\n'
+// execSync('git log --reverse --full-history --name-status', (stdout,  stderr,  err) =>{
+//     console.log(err)
+// })
+
+
+// --name-status variables:
+let added = {};
+let modified = {};
+let deleted = {};
+let copied = {};
+let renamed = {};
+let log = {};
+// result variable
+let formattedCommit;
+
+entries = 0
+
+exec('git log --full-history --reverse --name-status --parents --date=unix --pretty=format:"$%h,%p,%an,%ad,%s"', (stdout, stderr, err) =>{
+    let columnNames = 'hash, parentHash, author, utc, comment, added, modified, deleted, copied, renamed\n'
     fs.writeFileSync('./commits.csv', columnNames)
 
     let line = stderr.split('\n')
 
+    
     // since rstudio separates columns by commas, we need to replace any commas appearing in the commit comment with periods. 
     // to do: in the rstudio data-import cheatsheet, it says you can also load tab-delimited csv files using read.tsv, so in the future just put %x09 in between each --pretty format variable instead of commas. 
     for (i = 0; i < line.length; i++){
-        // get the comment, replace commas with periods
-        let comment = line[i].split(',').slice(4).join(',').replace(/,/g, '.')
-        // join the updated comment with the rest of commit
-        let formatedComment = line[i].split(',').slice(0,4).join(',') + ',' + comment + '\n'
-        console.log(formatedComment)
-        // append to file
-        fs.appendFileSync('./commits.csv', formatedComment)
+
+        // get any file stat refs
+        switch (line[i].charAt(0)){
+            // file addition
+            case "A":
+                log[entries.toString()].added.push(line[i].split('\t')[1])
+                // console.log(line[i].split('\t'))
+                // added.push(line[i].split('\t')[1])
+                // console.log(added)
+            break;
+            // file modification
+            case "M":
+                log[entries.toString()].modified.push(line[i].split('\t')[1])
+
+            break;
+
+            // file deletion
+            case "D":
+                log[entries.toString()].deleted.push(line[i].split('\t')[1])
+
+            break;
+
+            // "rename score"
+            case "R":
+                log[entries.toString()].renamed.push(line[i].split('\t')[1])
+
+            break;
+
+            // copy score"
+            case "C":
+                log[entries.toString()].copied.push(line[i].split('\t')[1])
+
+            break;
+
+            case ',':
+            case ' ':
+            // ignore
+            break
+
+            default: 
+                if (line[i].charAt(0) === '$'){
+                    entries++
+                    //console.log('$')
+                    match = line[i].split('$')[1]
+                    // console.log(match, added)
+                    //ignore blank 
+                    log[entries.toString()] = {
+                        commit: null,
+                        added: [],
+                        modified: [],
+                        deleted: [],
+                        copied: [],
+                        renamed: []
+                    }
+                    //console.log(log)
+                    
+                    // let combine = added.join(',')
+                    // console.log(concat.join(combine))
+                    // first  clear all --name-status variables
+                    added.length = 0;
+                    modified.length = 0;
+                    deleted.length = 0;
+                    copied.length = 0;
+                    renamed.length = 0;
+                    concat.length = 0
+                    
+                    // get the comment, replace commas with periods
+                    let comment = match.split(',').slice(4).join(',').replace(/,/g, '.')
+                    // console.log(comment)
+                    // join the updated comment with the rest of commit
+                    formattedCommit = match.split(',').slice(0,4).join(',') + ',' + comment
+                    // console.log(formattedCommit)
+                    // append to file
+                    log[entries.toString()].commit = formattedCommit
+
+                    // console.log(concat)
+                    
+                }
+        }
+        
+
     }
+        let commit;
+        let keys = Object.keys(log)
+        console.log(keys)
+        for (i = 0; i < keys.length; i++){
+            let astr;
+            let ref = log[keys[i].toString()]
+            commit = ref.commit + ', ' + ref.added.join(' ') + ', ' + ref.modified.join(' ')+ ', ' + ref.deleted.join(' ')+ ', ' + ref.copied.join(' ')+ ', ' + ref.renamed.join(' ') + '\n' 
+            // if (log[ref].added.length > 0){
+            //     commit = log[i].added.join(' ')
+            // }
+
+            //console.log(commit)
+            fs.appendFileSync('./commits.csv', commit)
+        }
 })
 
+let concat = [];
+
+function addLine(line){
+    fs.appendFileSync('./commits.csv', line)
+}
 // figure out how to format the csv so that Rstudio can access the filenames reported by git log --name-status
 /* exec('git log --full-history --reverse --name-status --parents --date=unix --pretty=format:"%h   %p,%an,%ad,%s,%"', (stdout, stderr, err) =>{
     let columnNames = 'hash, parentHash, author, utc, comment\n'

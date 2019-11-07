@@ -1,27 +1,28 @@
-hash, parentHash, author, utc, comment
-306357e,,Michael Palumbo,1548353395,Initial commit
-5973d9d,306357e,Michael Palumbo,1548353688,Create README.md
-c644aaa,5973d9d,Michael Palumbo,1548355619,added link to participation instructions to readme.md
-8a5b554,c644aaa,Michael Palumbo,1548366633,Update README.md
-50c114b,8a5b554,Michael Palumbo,1548366658,clarity
-9de58a4,50c114b,Michael Palumbo,1548366691,Update README.md
-092ea63,9de58a4,Michael Palumbo,1548369648,readme.md matches wiki/home for now
-a0a252b,092ea63,Michael Palumbo,1548369706,Update README.md
-9923589,a0a252b,Michael Palumbo,1548369766,Update README.md
-11b97f1,9923589,Michael Palumbo,1548369776,Update README.md
-48b5264,11b97f1,Michael Palumbo,1548370826,Update README.md
-d5b86e5,48b5264,Michael Palumbo,1548374573,pesky ds store
-7a32565,48b5264,michaelpalumbo,1548374607,diagram of the cycles for the participation wiki page
-efe21ff,7a32565 d5b86e5,michaelpalumbo,1548374609,Merge branch 'master' of https://github.com/dispersionlab/gitshow
-3016f91,efe21ff,michaelpalumbo,1548375953,finished 3-cycle demo
-ebdf54f,3016f91,michaelpalumbo,1549074382,guiStats.js reports a few simple stats of each instrument's gui
-e231dc2,ebdf54f,michaelpalumbo,1549074417,guiStats.js created for analysis of cycle1
-e4e4831,e231dc2,michaelpalumbo,1549077457,completed authorship determination for cycle 1 into cycle 2
-9f922c1,e4e4831,michaelpalumbo,1549078378,reorganized repo. updated script to be more forgiving with cli args.
-7f4c6f6,9f922c1,michaelpalumbo,1549078538,removed analysis folder
-127d179,7f4c6f6,Michael Palumbo,1571256940,Create vcvrack.md
-7dacc17,127d179,michaelpalumbo,1573076577,push the mainpage to github.io
-55881c1,7dacc17,michaelpalumbo,1573077046,update webpage
-c50cf0b,55881c1,michaelpalumbo,1573077572,fix error due to large file size
-5cb06fc,c50cf0b,Michael Palumbo,1573077726,Update README.md
-8bbb211,5cb06fc,thedispersionlab,1573142721,success. added figured out how to iimport csv. also solved an issue where commas in the commit comment were causing extra columns or rows to appear in rStudio's import of commits.csv
+hash, parentHash, author, utc, comment, added, modified, deleted, copied, renamed
+306357e,,Michael Palumbo,1548353395,Initial commit, .gitignore LICENSE, , , , 
+5973d9d,306357e,Michael Palumbo,1548353688,Create README.md, README.md, , , , 
+c644aaa,5973d9d,Michael Palumbo,1548355619,added link to participation instructions to readme.md, , README.md, , , 
+8a5b554,c644aaa,Michael Palumbo,1548366633,Update README.md, , README.md, , , 
+50c114b,8a5b554,Michael Palumbo,1548366658,clarity, , README.md, , , 
+9de58a4,50c114b,Michael Palumbo,1548366691,Update README.md, , README.md, , , 
+092ea63,9de58a4,Michael Palumbo,1548369648,readme.md matches wiki/home for now, , README.md, , , 
+a0a252b,092ea63,Michael Palumbo,1548369706,Update README.md, , README.md, , , 
+9923589,a0a252b,Michael Palumbo,1548369766,Update README.md, , README.md, , , 
+11b97f1,9923589,Michael Palumbo,1548369776,Update README.md, , README.md, , , 
+48b5264,11b97f1,Michael Palumbo,1548370826,Update README.md, , README.md, , , 
+d5b86e5,48b5264,Michael Palumbo,1548374573,pesky ds store, , .gitignore, , , 
+7a32565,48b5264,michaelpalumbo,1548374607,diagram of the cycles for the participation wiki page, cycle_demonstration.scap, , , , 
+efe21ff,7a32565 d5b86e5,michaelpalumbo,1548374609,Merge branch 'master' of https://github.com/dispersionlab/gitshow, , , , , 
+3016f91,efe21ff,michaelpalumbo,1548375953,finished 3-cycle demo, docs/cycle_demonstration.png docs/cycle_demonstration.scap, , cycle_demonstration.scap, , 
+ebdf54f,3016f91,michaelpalumbo,1549074382,guiStats.js reports a few simple stats of each instrument's gui, analysis/GUI_Stats.json analysis/guiStats.js analysis/node_modules/balanced-match/.npmignore analysis/node_modules/balanced-match/LICENSE.md analysis/node_modules/balanced-match/README.md analysis/node_modules/balanced-match/index.js analysis/node_modules/balanced-match/package.json analysis/node_modules/brace-expansion/LICENSE analysis/node_modules/brace-expansion/README.md analysis/node_modules/brace-expansion/index.js analysis/node_modules/brace-expansion/package.json analysis/node_modules/concat-map/.travis.yml analysis/node_modules/concat-map/LICENSE analysis/node_modules/concat-map/README.markdown analysis/node_modules/concat-map/example/map.js analysis/node_modules/concat-map/index.js analysis/node_modules/concat-map/package.json analysis/node_modules/concat-map/test/map.js analysis/node_modules/lb-ratio/.npmignore analysis/node_modules/lb-ratio/LICENSE.md analysis/node_modules/lb-ratio/dist/Ratio-0.4.1.js analysis/node_modules/lb-ratio/examples/images/ratiojs-logo.png analysis/node_modules/lb-ratio/examples/index.html analysis/node_modules/lb-ratio/examples/node-test-Ratio.js analysis/node_modules/lb-ratio/gulpfile.js analysis/node_modules/lb-ratio/history.md analysis/node_modules/lb-ratio/index.html analysis/node_modules/lb-ratio/lib/Ratio-beta.js analysis/node_modules/lb-ratio/package.json analysis/node_modules/lb-ratio/readme.md analysis/node_modules/lb-ratio/test/Ratio.js_metrics.html analysis/node_modules/lb-ratio/test/Ratio.js_testcases.html analysis/node_modules/lb-ratio/test/js/Ratio-benchmark.js analysis/node_modules/lb-ratio/test/js/Ratio-testcases.js analysis/node_modules/lb-ratio/vendors/qunit/qunit.css analysis/node_modules/lb-ratio/vendors/qunit/qunit.js analysis/node_modules/minimatch/LICENSE analysis/node_modules/minimatch/README.md analysis/node_modules/minimatch/minimatch.js analysis/node_modules/minimatch/package.json analysis/node_modules/node-dir/.npmignore analysis/node_modules/node-dir/LICENSE.txt analysis/node_modules/node-dir/README.md analysis/node_modules/node-dir/index.js analysis/node_modules/node-dir/lib/paths.js analysis/node_modules/node-dir/lib/readfiles.js analysis/node_modules/node-dir/lib/readfilesstream.js analysis/node_modules/node-dir/package.json analysis/package-lock.json analysis/package.json, , , , 
+e231dc2,ebdf54f,michaelpalumbo,1549074417,guiStats.js created for analysis of cycle1, , analysis/guiStats.js, , , 
+e4e4831,e231dc2,michaelpalumbo,1549077457,completed authorship determination for cycle 1 into cycle 2, cycles/cycle_1/cycle1-2_determination.png cycles/cycle_1/cycle1-2_determination.scap cycles/cycle_1/cycle1.js cycles/cycle_1/cycle1.json, , , , 
+9f922c1,e4e4831,michaelpalumbo,1549078378,reorganized repo. updated script to be more forgiving with cli args., , cycles/cycle_1/cycle1-2_determination.png cycles/cycle_1/cycle1-2_determination.scap, , , 
+7f4c6f6,9f922c1,michaelpalumbo,1549078538,removed analysis folder, , , analysis/GUI_Stats.json analysis/guiStats.js, , analysis/node_modules/balanced-match/.npmignore analysis/node_modules/balanced-match/LICENSE.md analysis/node_modules/balanced-match/README.md analysis/node_modules/balanced-match/index.js analysis/node_modules/balanced-match/package.json analysis/node_modules/brace-expansion/LICENSE analysis/node_modules/brace-expansion/README.md analysis/node_modules/brace-expansion/index.js analysis/node_modules/brace-expansion/package.json analysis/node_modules/concat-map/.travis.yml analysis/node_modules/concat-map/LICENSE analysis/node_modules/concat-map/README.markdown analysis/node_modules/concat-map/example/map.js analysis/node_modules/concat-map/index.js analysis/node_modules/concat-map/package.json analysis/node_modules/concat-map/test/map.js analysis/node_modules/lb-ratio/.npmignore analysis/node_modules/lb-ratio/LICENSE.md analysis/node_modules/lb-ratio/dist/Ratio-0.4.1.js analysis/node_modules/lb-ratio/examples/images/ratiojs-logo.png analysis/node_modules/lb-ratio/examples/index.html analysis/node_modules/lb-ratio/examples/node-test-Ratio.js analysis/node_modules/lb-ratio/gulpfile.js analysis/node_modules/lb-ratio/history.md analysis/node_modules/lb-ratio/index.html analysis/node_modules/lb-ratio/lib/Ratio-beta.js analysis/node_modules/lb-ratio/package.json analysis/node_modules/lb-ratio/readme.md analysis/node_modules/lb-ratio/test/Ratio.js_metrics.html analysis/node_modules/lb-ratio/test/Ratio.js_testcases.html analysis/node_modules/lb-ratio/test/js/Ratio-benchmark.js analysis/node_modules/lb-ratio/test/js/Ratio-testcases.js analysis/node_modules/lb-ratio/vendors/qunit/qunit.css analysis/node_modules/lb-ratio/vendors/qunit/qunit.js analysis/node_modules/minimatch/LICENSE analysis/node_modules/minimatch/README.md analysis/node_modules/minimatch/minimatch.js analysis/node_modules/minimatch/package.json analysis/node_modules/node-dir/.npmignore analysis/node_modules/node-dir/LICENSE.txt analysis/node_modules/node-dir/README.md analysis/node_modules/node-dir/index.js analysis/node_modules/node-dir/lib/paths.js analysis/node_modules/node-dir/lib/readfiles.js analysis/node_modules/node-dir/lib/readfilesstream.js analysis/node_modules/node-dir/package.json analysis/package-lock.json analysis/package.json
+127d179,7f4c6f6,Michael Palumbo,1571256940,Create vcvrack.md, vcvrack.md, , , , 
+7dacc17,127d179,michaelpalumbo,1573076577,push the mainpage to github.io, docs/index.html, , , , 
+55881c1,7dacc17,michaelpalumbo,1573077046,update webpage, , docs/index.html, , , 
+c50cf0b,55881c1,michaelpalumbo,1573077572,fix error due to large file size, analysis/commits.iso.csv analysis/gitlog.R analysis/history.json analysis/log.csv analysis/log2json.js, , , , cycles/cycle_1/cycle1-2_determination.png cycles/cycle_1/cycle1-2_determination.scap cycles/cycle_1/cycle1.js cycles/cycle_1/cycle1.json
+5cb06fc,c50cf0b,Michael Palumbo,1573077726,Update README.md, , README.md, , , 
+8bbb211,5cb06fc,thedispersionlab,1573142721,success. added figured out how to iimport csv. also solved an issue where commas in the commit comment were causing extra columns or rows to appear in rStudio's import of commits.csv, analysis/.Rapp.history analysis/commits.csv, analysis/commits.iso.csv analysis/gitlog.R analysis/log2json.js, , , 
+f0463b2,8bbb211,thedispersionlab,1573145291,able to export log to csv and also import it and make a basic graph in rstudio, analysis/r-data-import.pdf analysis/r-data-visualization-2.1.pdf analysis/r-dateTime-lubridate.pdf analysis/rmarkdown-reference.pdf, analysis/commits.csv analysis/gitlog.R analysis/log2json.js, , , 
