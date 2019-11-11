@@ -1,0 +1,22 @@
+{
+  "name": "gitshow",
+  "homepage": "dispersionlab.github.io/gitshow",
+  "authors": [
+    "michaelpalumbo <emailmichaelpalumbo@gmail.com>"
+  ],
+  "description": "website for the gitshow experiment",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Repo.js": "*",
+    "jquery": "^3.4.1"
+  }
+}

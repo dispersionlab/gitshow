@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>Git Show</title>
+
+		<script src="./bower_components/jquery/dist/jquery.min.js">	</script>
+    <script src="./bower_components/Repo.js/repo.js"></script>
+    <script src="./bower_components/jquery-github/dist/jquery.github.min.js"></script>
+    <link rel="stylesheet" href="./bower_components/jquery-github/assets/base.css">
+
   </head>
   <body>
     <p>
@@ -14,10 +20,80 @@
         <br>
       
       Here's the list of active git show repositories:</p>
-    <p><a href="https://github.com/dispersionlab/gitshow1" target="_blank">Git Show 1</a></p>
+    <table>
+      <tr>
+
+      </tr>
+      <th>
+        Gitshow Repositories
+      </th>
+      <th>
+        Repository Contents (latest version)
+      </th>
+      <tr>
+        <td>
+            <div data-repo="dispersionlab/gitshow1"></div>
+        </td>
+        <td>
+            <div id="gitshow1"></div>
+        </td>
+      </tr>
+      <tr>
+          <td>
+              <div data-repo="dispersionlab/gitshow2"></div>
+          </td>
+          <td>
+              <div id="gitshow2"></div>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <div data-repo="dispersionlab/gitshow3"></div>
+            </td>
+            <td>
+                <div id="gitshow3"></div>
+            </td>
+          </tr>
+          <tr>
+              <td>
+                  <div data-repo="dispersionlab/gitshow4"></div>
+              </td>
+              <td>
+                  <div id="gitshow4"></div>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div data-repo="dispersionlab/gitshow5"></div>
+                </td>
+                <td>
+                    <div id="gitshow5"></div>
+                </td>
+              </tr>
+      
+
+
+
+    </table>
+    <!-- <p><a href="https://github.com/dispersionlab/gitshow1" target="_blank">Git Show 1</a></p>
+    
     <p><a href="https://github.com/dispersionlab/gitshow2" target="_blank">Git Show 2</a></p>
     <p><a href="https://github.com/dispersionlab/gitshow3" target="_blank">Git Show 3</a></p>
     <p><a href="https://github.com/dispersionlab/gitshow4" target="_blank">Git Show 4</a></p>
-    <p><a href="https://github.com/dispersionlab/gitshow5" target="_blank">Git Show 5</a></p>
+    <p><a href="https://github.com/dispersionlab/gitshow5" target="_blank">Git Show 5</a></p> -->
   </body>
+
+  <script>
+  window.onload = function repoContents(){
+    
+    $('#gitshow1').repo({ user: 'dispersionlab', name: 'gitshow1' })
+    $('#gitshow2').repo({ user: 'dispersionlab', name: 'gitshow2' })
+    $('#gitshow3').repo({ user: 'dispersionlab', name: 'gitshow3' })
+    $('#gitshow4').repo({ user: 'dispersionlab', name: 'gitshow4' })
+    $('#gitshow5').repo({ user: 'dispersionlab', name: 'gitshow5' })
+    $("[data-repo]").github();
+  }
+  
+  
+  </script>
 </html>
