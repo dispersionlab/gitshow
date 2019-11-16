@@ -1,0 +1,23 @@
+{
+  "name": "github-js",
+  "main": "github-js",
+  "version": "0.1.3",
+  "homepage": "http://akshaykumar6.github.io/github-js",
+  "authors": [
+    "Akshay Sharma <sharmakumar3092@gmail.com>"
+  ],
+  "description": "Javascript Plugin over Github APIs.",
+  "keywords": [
+    "github","Javascript","API","github-js","github.js"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "src",
+    ".gitignore"
+  ],
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {}
+}

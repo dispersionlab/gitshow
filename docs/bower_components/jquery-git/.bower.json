@@ -1,0 +1,34 @@
+{
+  "name": "jquery-git",
+  "description": "jQuery Extension to easily display a user's GitHub repositories",
+  "version": "0.2.0",
+  "homepage": "https://github.com/benderTheCrime/jquery-git",
+  "repository": {
+    "git": "https://github.com/benderTheCrime/jquery-git"
+  },
+  "authors": "Joe Groseclose <@benderTheCrime>",
+  "keywords": [
+    "jquery",
+    "github"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "ignore": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "Gulpfile.js",
+    "tests/**"
+  ],
+  "license": "MIT",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.0",
+    "commit": "096c9c914fb131a386ae60fb6d2cebc03bab451c"
+  },
+  "_source": "https://github.com/benderTheCrime/jquery-git.git",
+  "_target": "^0.2.0",
+  "_originalSource": "jquery-git",
+  "_direct": true
+}

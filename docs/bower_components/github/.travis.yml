@@ -1,0 +1,26 @@
+sudo: false
+language: node_js
+node_js:
+- '11'
+- '10'
+- '8'
+cache:
+  directories:
+  - node_modules
+before_install: npm install -g npm@latest
+before_script:
+- npm run lint
+script:
+- npm run test-coverage
+after_success:
+- npm run codecov
+before_deploy:
+- npm run build
+deploy:
+  provider: npm
+  skip_cleanup: true
+  on:
+    tags: true
+  email: clayreimann@gmail.com
+  api_key:
+    secure: WnLh1m02aF7NvFNILCZ8KsjPuDeSddQI87y8dwAixStr2FhQyz8FIKZN2Qj1N1Q9ZJvBETe5HWs1c9yOjTKBkD0d/eU2hlpnB9WXEFRJVDjiUuMnpAMMvuqTZwYg6kXq5N+of95PX58AYiBiV/qwsdUr/MgjEEYLt5UZgRYQRvE=

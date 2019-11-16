@@ -1,0 +1,15 @@
+{
+  "name": "github",
+  "homepage": "https://github.com/michael/github",
+  "version": "3.3.0",
+  "_release": "3.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.3.0",
+    "commit": "4fccb1011d57268b885f2c8e024d2afac95d81f6"
+  },
+  "_source": "https://github.com/michael/github.git",
+  "_target": "^3.3.0",
+  "_originalSource": "github",
+  "_direct": true
+}

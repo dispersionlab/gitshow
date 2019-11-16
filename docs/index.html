@@ -5,8 +5,11 @@
 
 		<script src="./bower_components/jquery/dist/jquery.min.js">	</script>
     <script src="./bower_components/Repo.js/repo.js"></script>
-    <script src="./bower_components/jquery-github/dist/jquery.github.min.js"></script>
+    <script src="./bower_components/jquery-github/dist/jquery.github.js"></script>
     <link rel="stylesheet" href="./bower_components/jquery-github/assets/base.css">
+
+    <script src="./bower_components/jquery-git/jquery-git.js"></script>
+
 
   </head>
 
@@ -19,6 +22,8 @@
       padding: 15px;
         text-align: left;
     }
+    /* td{ height: 50px }; */
+    td > div { overflow-y:auto; overflow-x:hidden;} 
   
   </style>
   <body>
@@ -35,15 +40,19 @@
     <table width="100%">
       <tr>
         <th width="30%">Gitshow Repositories</th>
-        <th width="60%">Repository Contents (latest version)</th>
-        <th width="10%">History (coming soon)</th>
+        <th width="30%">Repository Contents (latest version)</th>
+        <!-- TODO: FIGURE OUT HOW TO LINK TO THE TAGGED COMMITS, AND LINK THEM HERE -->
+        <th width="40%">Version History</th> 
       </tr> 
-      <tr>
+      <tr >
         <td>
             <div data-repo="dispersionlab/gitshow1"></div>
         </td>
         <td>
             <div id="gitshow1"></div>
+        </td>
+        <td>
+          <div id="details1"></div>
         </td>
       </tr>
       <tr>
@@ -53,6 +62,9 @@
         <td>
             <div id="gitshow2"></div>
         </td>
+        <td>
+            <div id="details1"></div>
+        </td>
       </tr>
       <tr>
         <td>
@@ -61,6 +73,9 @@
         <td>
             <div id="gitshow3"></div>
         </td>
+        <td>
+            <div id="details3"></div>
+          </td>
       </tr>
       <tr>
         <td>
@@ -69,14 +84,21 @@
         <td>
             <div id="gitshow4"></div>
         </td>
+        <td>
+            <div id="details4"></div>
+          </td>
       </tr>
       <tr>
         <td>
             <div data-repo="dispersionlab/gitshow5"></div>
         </td>
+        
         <td>
             <div id="gitshow5"></div>
         </td>
+        <td>
+            <div id="details5"></div>
+          </td>
       </tr>
       
 
@@ -93,15 +115,30 @@
 
   <script>
   window.onload = function repoContents(){
-    
-    $('#gitshow1').repo({ user: 'dispersionlab', name: 'gitshow1' })
-    $('#gitshow2').repo({ user: 'dispersionlab', name: 'gitshow2' })
-    $('#gitshow3').repo({ user: 'dispersionlab', name: 'gitshow3' })
-    $('#gitshow4').repo({ user: 'dispersionlab', name: 'gitshow4' })
-    $('#gitshow5').repo({ user: 'dispersionlab', name: 'gitshow5' })
+
     $("[data-repo]").github();
+    $().git({
+    username: 'dispersionlab'
+});
   }
   
-  
+  // Specify a reference element, it doesn't really matter what the selector is
+
+
+    // $('#gitshow1').repo({ user: 'dispersionlab', name: 'gitshow1' })
+
+// console.log(git({
+//   username: 'dispersionlab'
+// }))
+/*
+// Username is the only real requirement, other options are listed below:
+var opts = {
+    username:   'dispersionlab',
+    exclude:    [],                     // Leave out some of the default fields: name, updatedAt, description
+    include:    [],                     // Include additional information from the GitHub repositories endpoint
+    limit:      10,                     // Limit the number of repos added to div
+    limitText:  'test'                  // Text to appear in the link back to the Owner's GitHub page, does nothing if no limit property or not enough repos
+};
+*/
   </script>
 </html>

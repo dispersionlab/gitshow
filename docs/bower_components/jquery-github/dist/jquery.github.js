@@ -23,6 +23,7 @@ GithubRepo.prototype.toHTML = function () {
 	this.pushed_at = this._parsePushedDate( this.pushed_at ),
 	this.url  = this._parseURL( this.url );
 
+	// console.log(this.description)
 	return $(
 		"<div class='github-box'>" +
 			"<div class='github-box-header'>" +
