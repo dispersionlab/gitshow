@@ -10,6 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "lb-ratio": "^0.4.1",
-    "node-dir": "^0.1.17"
+    "markup-it": "^11.1.8",
+    "node-dir": "^0.1.17",
+    "react": "^16.12.0",
+    "react-rich-diff": "^0.6.1",
+    "rich-text-diff": "^0.2.3"
   }
 }

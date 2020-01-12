@@ -8,8 +8,11 @@
     <script src="./bower_components/jquery-github/dist/jquery.github.js"></script>
     <link rel="stylesheet" href="./bower_components/jquery-github/assets/base.css">
 
-    <script src="./bower_components/jquery-git/jquery-git.js"></script>
+    <script src="./jquery-git_mp/jquery-git.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.js"></script>
+    <!-- convert score.md to html -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   </head>
 
@@ -21,9 +24,10 @@
     th, td {
       padding: 15px;
         text-align: left;
+        vertical-align:top;
     }
     /* td{ height: 50px }; */
-    td > div { overflow-y:auto; overflow-x:hidden;} 
+    td > div { overflow-y:auto; overflow-x:auto;} 
   
   </style>
   <body>
@@ -39,18 +43,24 @@
       Here's the list of active git show repositories:</p>
     <table width="100%">
       <tr>
-        <th width="30%">Gitshow Repositories</th>
-        <th width="30%">Repository Contents (latest version)</th>
+        <th width="60%">Gitshow Repositories</th>
+        <th width="30%">Version History</th>
         <!-- TODO: FIGURE OUT HOW TO LINK TO THE TAGGED COMMITS, AND LINK THEM HERE -->
-        <th width="40%">Version History</th> 
+        <!-- <th width="40%">Version History</th>  -->
       </tr> 
       <tr >
         <td>
             <div data-repo="dispersionlab/gitshow1"></div>
+            <h3>Repository Contents (Latest Version)</h3>
+            <br>Click a filename to view it, then click the repository title below to return to the root.  
+            <div id="gitshow1" style="overflow-x:auto;"></div>
+
+            <div id="score1"></div>
+
+
+
         </td>
-        <td>
-            <div id="gitshow1"></div>
-        </td>
+
         <td>
           <div id="details1"></div>
         </td>
@@ -58,8 +68,6 @@
       <tr>
         <td>
             <div data-repo="dispersionlab/gitshow2"></div>
-        </td>
-        <td>
             <div id="gitshow2"></div>
         </td>
         <td>
@@ -69,8 +77,6 @@
       <tr>
         <td>
             <div data-repo="dispersionlab/gitshow3"></div>
-        </td>
-        <td>
             <div id="gitshow3"></div>
         </td>
         <td>
@@ -80,8 +86,6 @@
       <tr>
         <td>
             <div data-repo="dispersionlab/gitshow4"></div>
-        </td>
-        <td>
             <div id="gitshow4"></div>
         </td>
         <td>
@@ -91,9 +95,6 @@
       <tr>
         <td>
             <div data-repo="dispersionlab/gitshow5"></div>
-        </td>
-        
-        <td>
             <div id="gitshow5"></div>
         </td>
         <td>
@@ -120,6 +121,8 @@
     $().git({
     username: 'dispersionlab'
 });
+
+
   }
   
   // Specify a reference element, it doesn't really matter what the selector is
@@ -140,5 +143,37 @@ var opts = {
     limitText:  'test'                  // Text to appear in the link back to the Owner's GitHub page, does nothing if no limit property or not enough repos
 };
 */
+
+
+fetch('https://api.github.com/repos/dispersionlab/gitShow1/contents/score1.md')
+  .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.json().then(function(data) {
+        //console.log(data.content);
+
+        score = data.content
+
+        decoded_content = atob(score)
+        console.log(decoded_content)
+
+        document.getElementById('score1').innerHTML =
+            marked(decoded_content);
+
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
+
+
   </script>
 </html>
+

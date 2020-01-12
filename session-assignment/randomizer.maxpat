@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 738.0, 259.0, 623.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -163,8 +163,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 229.0, 139.0, 185.0, 22.0 ],
-					"text" : "doug ian rory hrsovalanti michael"
+					"patching_rect" : [ 229.0, 139.0, 211.0, 22.0 ],
+					"text" : "doug ian rory hrsovalanti michael aida"
 				}
 
 			}
